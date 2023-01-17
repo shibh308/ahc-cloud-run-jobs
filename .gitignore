@@ -1,0 +1,9 @@
+__pycachae__
+target/
+tools/
+*.zip
+*.out
+/results
+/upload_files/solution/
+/upload_files/tester
+/shell_scripts/docker_build_and_push.sh
