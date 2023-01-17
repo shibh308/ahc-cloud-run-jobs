@@ -4,6 +4,8 @@ tools/
 *.zip
 *.out
 /results
-/upload_files/solution/
-/upload_files/tester
+/upload_files/solution/*
+!/upload_files/solution/.gitkeep
+/upload_files/tester/*
+!/upload_files/tester/.gitkeep
 /shell_scripts/docker_build_and_push.sh
