@@ -38,7 +38,5 @@ shibh308のマラソン環境の雛形, Google Cloud RunのJob機能で手元の
 ジョブの実行
 - `sh shell_scripts/run.sh execute`
   - アップロードされたファイルを元に並列実行
-
-結果の取得
-- `sh shell_scripts/run.sh collect`
-  - 実行結果をダウンロードして集計
+- `python3 scripts/collect_scores.py`
+  - 実行と集計をまとめて行う
