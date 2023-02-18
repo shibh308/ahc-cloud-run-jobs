@@ -3,7 +3,7 @@ import subprocess
 
 
 CASE_START = 1
-CASE_END = 1000
+CASE_END = 10
 
 
 def execute_single_case(filename):
